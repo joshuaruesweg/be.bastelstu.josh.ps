@@ -1,5 +1,5 @@
 <?php
-namespace jps\system;
+namespace ps\system;
 use wcf\system\application\AbstractApplication;
 use wcf\system\breadcrumb\Breadcrumb;
 use wcf\system\menu\page\PageMenu;
