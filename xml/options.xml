@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="ps">
+				<showorder>3</showorder>
+			</category>
+			
+			<category name="ps.general">
+				<parent>jps</parent>
+			</category>
+		</categories>
+                
+		<options>
+			<option name="ps_index_active">
+				<categoryname>ps.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="ps_download_log">
+				<categoryname>ps.general</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			
+			<option name="ps_login_methode">
+				<categoryname>ps.general</categoryname>
+				<optiontype>select</optiontype>
+				<defaultvalue>none</defaultvalue>
+				<selectoptions><![CDATA[NONE:jps.login.methode.none
+USERNAME:jps.login.methode.user
+OWN:jps.login.methode.own]]></selectoptions>
+			</option>
+		</options>
+	</import>
+</data>
