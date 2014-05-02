@@ -20,7 +20,7 @@
 	<instructions type="install">
 		<instruction type="file">files.tar</instruction>
 		<!-- <instruction type="option">options.xml</instruction> -->
-		<!-- <instruction type="language">language/*.xml</instruction>v
+		<instruction type="language">language/*.xml</instruction>
 		<!-- <instruction type="sql">install.sql</instruction> -->
 		<!-- <instruction type="template">templates.tar</instruction> -->
 		<!-- <instruction type="objectType">objectType.xml</instruction> -->
